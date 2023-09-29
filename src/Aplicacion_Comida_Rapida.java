@@ -1,6 +1,8 @@
-public class Aplicacion_Comida_Rapida {
-    
-    public static void main(String[] args) {
+package pedro.galvan;
 
-    }
+import pedro.galvan.productos.Productos;
+
+public class Orden {
+    private int numeroOrden;
+    private Productos[] productos;
 }

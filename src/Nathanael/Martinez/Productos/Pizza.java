@@ -1,4 +1,4 @@
-package Nathanael.Martinez.Productos;
+package pedro.galvan.productos;
 
-public class Pizza implements Productos {
+public class Pizza extends Productos{
 }

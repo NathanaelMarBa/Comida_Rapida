@@ -1,4 +1,4 @@
-package Nathanael.Martinez.Productos;
+package pedro.galvan.productos;
 
-public class Refresco implements Productos {
+public class Refresco extends Productos{
 }
