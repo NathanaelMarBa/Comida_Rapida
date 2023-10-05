@@ -4,11 +4,11 @@ public class Hotdog extends Productos{
     @Override
     public double calcularPrecio() {
         double precio = 0.0;
-        if(getCategoria() == "sencillo"){
+        if(getTamanio() == "chica"){
             precio = 20;
-        }if(getCategoria() == "tocino"){
+        }if(getTamanio() == "mediana"){
             precio = 25;
-        }if(getCategoria() == "buldog"){
+        }if(getTamanio() == "grande"){
             precio = 30;
         }
 

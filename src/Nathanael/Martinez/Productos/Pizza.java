@@ -5,11 +5,11 @@ public class Pizza extends Productos{
     public double calcularPrecio() {
         double precio = 0.0;
 
-        if(getCategoria() == "Hawaiana"){
+        if(getTamanio() == "chica"){
             precio = 200;
-        }if(getCategoria() == "Pastor"){
+        }if(getTamanio() == "mediana"){
             precio = 220;
-        }if(getCategoria() == "Mexicana"){
+        }if(getTamanio() == "grande"){
             precio = 250;
         }
 

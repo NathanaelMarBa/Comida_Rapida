@@ -26,7 +26,7 @@ public abstract class Productos {
     }
 
     public String getTamanio() {
-        return tamanio;
+        return tamanio.toLowerCase().trim();
     }
 
     public void setTamanio(String tamanio) {

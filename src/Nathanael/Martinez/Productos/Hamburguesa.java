@@ -5,14 +5,12 @@ public class Hamburguesa extends Productos{
     public double calcularPrecio() {
         double precio = 0.0;
 
-        if(getCategoria() == "sencilla"){
+        if(getTamanio() == "chica"){
             precio = 40;
-        }if(getCategoria() == "hawaiana"){
+        }if(getTamanio() == "mediana"){
             precio = 45;
-        }if(getCategoria() == "doble"){
+        }if(getTamanio() == "grande") {
             precio = 50;
-        }if(getCategoria() == "especial"){
-            precio = 55;
         }
         return precio;
     }
