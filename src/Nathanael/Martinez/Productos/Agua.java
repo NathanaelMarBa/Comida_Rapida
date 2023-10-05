@@ -1,18 +1,17 @@
-package pedro.galvan.productos;
+package Nathanael.Martinez.Productos;
 
 public class Agua extends Productos{
     @Override
-    public void setNombreProductos(String nombreProductos) {
-        nombreProductos = "Agua";
-    }
+    public double calcularPrecio(){
+        double precio = 0.0;
 
-    @Override
-    public void setCategoria(String[] categoria) {
-        categoria[1]="Bebida";
-    }
-
-    @Override
-    public void setPrecio(double precio) {
-        
+        if(getTamanio() == "chico"){
+            precio = 10;
+        }if (getTamanio() == "mediano"){
+            precio = 15;
+        }if (getTamanio() == "grande"){
+            precio = 20;
+        }
+        return precio;
     }
 }

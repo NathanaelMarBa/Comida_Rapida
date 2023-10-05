@@ -1,8 +1,8 @@
-package pedro.galvan.personas;
+package Nathanael.Martinez.Personas;
 
 import pedro.galvan.Orden;
 
-public class Cliente extends Persona{
+public class Cliente {
     private int numeroPedido;
     public Orden ordenar(){
         return null;

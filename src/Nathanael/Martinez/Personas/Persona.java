@@ -1,4 +1,4 @@
-package pedro.galvan.personas;
+package Nathanael.Martinez.Personas;
 
 public abstract class Persona {
     public String nombre;

@@ -1,10 +1,12 @@
-package pedro.galvan.productos;
+package Nathanael.Martinez.Productos;
+
+import java.awt.datatransfer.StringSelection;
 
 public abstract class Productos {
 
     private String nombreProductos;
-    private String[] categoria = {"Alimento", "Bebida"};
-    private String[] tamanio = {"chico", "mediano", "grande"};
+    private String categoria;
+    private String tamanio;
     private double precio;
 
     public String getNombreProductos() {
@@ -15,19 +17,19 @@ public abstract class Productos {
         this.nombreProductos = nombreProductos;
     }
 
-    public String[] getCategoria() {
+    public String getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(String[] categoria) {
+    public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
 
-    public String[] getTamanio() {
+    public String getTamanio() {
         return tamanio;
     }
 
-    public void setTamanio(String[] tamanio) {
+    public void setTamanio(String tamanio) {
         this.tamanio = tamanio;
     }
 
@@ -38,4 +40,6 @@ public abstract class Productos {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+
+    public abstract double calcularPrecio();
 }

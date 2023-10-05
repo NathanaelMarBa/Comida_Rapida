@@ -1,4 +1,4 @@
-package pedro.galvan.personas;
+package Nathanael.Martinez.Personas;
 
 public class Empleado extends Persona{
     public int noEmpleado;
