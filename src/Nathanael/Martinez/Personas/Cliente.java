@@ -1,6 +1,6 @@
 package Nathanael.Martinez.Personas;
 
-import pedro.galvan.Orden;
+import Nathanael.Martinez.Orden;
 
 public class Cliente {
     private int numeroPedido;
