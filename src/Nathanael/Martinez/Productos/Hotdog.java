@@ -1,11 +1,11 @@
 package Nathanael.Martinez.Productos;
 
-public class Hotdog {
+public class Hotdog extends Productos{
     private int tamanio;
     public Hotdog(int tamanio){
         this.tamanio = tamanio;
     }
-
+@Override
     public double calcularPrecio(){
         double precio = 0.0;
         if(tamanio == 1){

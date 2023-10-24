@@ -1,9 +1,10 @@
 package Nathanael.Martinez.Productos;
-public class Agua {
+public class Agua extends Productos{
     private int tamanio;
     public Agua(int tamanio){
         this.tamanio = tamanio;
     }
+    @Override
     public double calcularPrecio(){
         double precio = 0.0;
         if(tamanio == 1){
